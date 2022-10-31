@@ -5,6 +5,18 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+/**
+ * @author Sebastian Siebert m30116
+ * @author Luca Spirka m29987
+ * @version 1.0
+ * <p>
+ * Programmieren 3 - Aufgabe 05.
+ * <p>
+ * 2022-10-24
+ * <p>
+ * Die Klasse stellt nur eine nicht Serialisierbare Liste dar. Keine der Methoden ist weiter implementiert worden.
+ */
+
 public class NonSerializableList<T> implements List<T> {
     /**
      * Returns the number of elements in this list.  If this list contains
@@ -72,7 +84,6 @@ public class NonSerializableList<T> implements List<T> {
      *
      * @return an array containing all of the elements in this list in proper
      * sequence
-     * @see Arrays#asList(Object[])
      */
     @Override
     public Object[] toArray() {
